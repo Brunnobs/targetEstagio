@@ -23,13 +23,13 @@ public class Fibonacci {
 
         while (proximoNumero <= numero) {
             if (proximoNumero == numero) {
-                return true; // O número pertence à sequência de Fibonacci
+                return true;
             }
             primeiroNumero = segundoNumero;
             segundoNumero = proximoNumero;
             proximoNumero = primeiroNumero + segundoNumero;
         }
 
-        return false; // O número não pertence à sequência de Fibonacci
+        return false;
     }
 }
